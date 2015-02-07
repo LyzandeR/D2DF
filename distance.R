@@ -21,7 +21,7 @@ distance <- function(x, y , data=NULL, method='euclidean', p=2) {
                minkowski = p,
                stop('method should be one of the following: \n1. euclidian\n2. manhattan\n3. canberra'))
   
-  if( method != 'canberra') {
+  if( i != 0) {
     sum(abs(x-y)^i)^(1/i)
   }else{
     sum(abs(x-y) / (abs(x) + abs(y)))
