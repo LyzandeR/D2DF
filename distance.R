@@ -13,6 +13,11 @@ distance <- function(x, y , data=NULL, method='euclidean', p=2) {
   if (method != 'minkowski') {p <- 2}
   if (p < 1) stop('P cannot be less than 1')
   
+  #NA handling
+  temp <- na.omit(cbind(x,y))
+  x    <- temp[,'x']
+  y    <- temp[,'y']
+  
   #calculate distance
   i <-  switch(method,
                manhattan = 1,
@@ -27,4 +32,6 @@ distance <- function(x, y , data=NULL, method='euclidean', p=2) {
     sum(abs(x-y) / (abs(x) + abs(y)))
   }
 }
+
+#consideration for NAs
 
