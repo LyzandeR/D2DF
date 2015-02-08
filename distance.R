@@ -17,6 +17,7 @@ distance <- function(x, y , data=NULL, method='euclidean', p=2) {
   temp <- na.omit(cbind(x,y))
   x    <- temp[,'x']
   y    <- temp[,'y']
+  rm(temp)
   
   #calculate distance
   i <-  switch(method,
@@ -33,5 +34,4 @@ distance <- function(x, y , data=NULL, method='euclidean', p=2) {
   }
 }
 
-#consideration for NAs
 
