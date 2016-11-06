@@ -18,6 +18,8 @@ The function included so far are:
 
 * na2value - Uses `data.table::set` to convert NAs in selected columns to a value.
 
+* remove_cor - A function which identifies correlated variables. Solves multicollinearity problem.
+
 * safe_ifelse - Like regular `ifelse` with the difference that this maintains the class (e.g. can be used with dates).
 
 * switchv - A vectorised version of `switch` using `vapply`.
