@@ -1,0 +1,16 @@
+Package: D2DF
+Type: Package
+Title: A set of my day to day functions
+Version: 0.1.1
+Authors@R: person("Theo", 
+                  "Boutaris", 
+                  email = "teoboot2007@hotmail.com", 
+                  role = c("aut", "cre", "cph"))
+URL: https://github.com/LyzandeR/D2DF
+BugReports: https://github.com/LyzandeR/D2DF/issues
+Depends: R (>= 3.2.0)
+Imports: data.table,
+         stats
+Description: A set of my day to day functions that have no connection between them.
+License: GPL-2
+RoxygenNote: 5.0.1
