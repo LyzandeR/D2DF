@@ -23,3 +23,5 @@ The function included so far are:
 * safe_ifelse - Like regular `ifelse` with the difference that this maintains the class (e.g. can be used with dates).
 
 * switchv - A vectorised version of `switch` using `vapply`.
+
+* package_downloads - A function which shows the downloads of specified packages in a nicely formatted table.

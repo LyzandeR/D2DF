@@ -1,7 +1,7 @@
 Package: D2DF
 Type: Package
 Title: A set of my day to day functions
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: person("Theo", 
                   "Boutaris", 
                   email = "teoboot2007@hotmail.com", 
@@ -9,8 +9,9 @@ Authors@R: person("Theo",
 URL: https://github.com/LyzandeR/D2DF
 BugReports: https://github.com/LyzandeR/D2DF/issues
 Depends: R (>= 3.2.0)
-Imports: data.table,
+Imports: cranlogs,
+         data.table,
          stats
-Description: A set of my day to day functions that have no connection between them.
+Description: A set of my day to day functions that have no connection among them.
 License: GPL-2
 RoxygenNote: 5.0.1

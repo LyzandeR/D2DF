@@ -3,6 +3,7 @@
 export(distance)
 export(feature_scale)
 export(na2value)
+export(package_downloads)
 export(remove_cor)
 export(safe_ifelse)
 export(switchv)
